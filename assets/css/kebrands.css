@@ -123,6 +123,94 @@ img.topSpace {
 }
 
 
+/* Colors Styles
+--------------------------------------------------------------- */
+
+ul.bColors {
+	list-style: none;
+	margin:  0 20px;
+	border: none;
+	clear: both;
+	display: block;
+}
+ul.webColors, ul.webColors2 {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ddd;	
+}
+ul.bColors li {
+	margin: 0 25px 20px;
+	padding: 0;
+	border: none;
+	position: relative;
+	text-align: center;
+	float: left;
+	font-size: 20px;
+}
+
+ul.bColors li span {
+	display: block;
+	clear: both;
+	margin: 5px auto;
+	width: 90px;
+	height: 90px;
+	display: block;
+	border-radius: 45px;
+	line-height: 90px;
+	text-align: center;
+	font-size: 15px;
+}
+/* -----logo colors---- */
+li.black {color: #000;}
+li.black span {background: #000;}
+li.gray {color: #545558;}
+li.gray span {background: #545558;}
+li.red {color: #e20f00;}
+li.red span {background: #e20f00;}
+li.orange {color: #ef5300;}
+li.orange span {background: #ef5300;}
+li.yellow {color: #fd9700;}
+li.yellow span {background: #fd9700;}
+
+/* -----copy colors---- */
+li.headings {color: #000;}
+li.headings span {background: #000;}
+li.bCopy {color: #545558;}
+li.bCopy span {background: #545558;}
+li.contrast {color: #999;}
+li.contrast span {background: #999;}
+
+/* -----web colors---- */
+li.brown {color: #693300;}
+li.brown span {background: #693300;}
+li.blue {color: #0089bb;}
+li.blue span {background: #0089bb;}
+li.green {color: #688d34;}
+li.green span {background: #688d34;}
+
+ul.webColors2 li.brown {color: #987046;}
+ul.webColors2 li.brown span {background: #987046;}
+ul.webColors2 li.orange {color: #f8873a;}
+ul.webColors2 li.orange span {background: #f8873a;}
+ul.webColors2 li.yellow {color: #ffcf69;}
+ul.webColors2 li.yellow span {background: #ffcf69;}
+ul.webColors2 li.blue {color: #64b9d8;}
+ul.webColors2 li.blue span {background: #64b9d8;}
+ul.webColors2 li.green {color: #93b16b;}
+ul.webColors2 li.green span {background: #93b16b;}
+
+ul.webColors3 li.brown {color: #e0d4c6;}
+ul.webColors3 li.brown span {background: #e0d4c6;}
+ul.webColors3 li.orange {color: #fedbc5}
+ul.webColors3 li.orange span {background: #fedbc5}
+ul.webColors3 li.yellow {color: #ffecc1}
+ul.webColors3 li.yellow span {background: #ffecc1;}
+ul.webColors3 li.blue {color: #d0eaf4;}
+ul.webColors3 li.blue span {background: #d0eaf4;}
+ul.webColors3 li.green {color: #d8e2c9;}
+ul.webColors3 li.green span {background: #d8e2c9;}
+
+/* ------------------------------------------------------------- */
+
 .bGraphic {
 	position: relative;	
 }
