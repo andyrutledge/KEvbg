@@ -45,6 +45,13 @@ img.topSpace {
 	margin-top: 20px;	
 }
 
+::selection {
+	background: #000; /* Safari */
+	}
+::-moz-selection {
+	background: #000; /* Firefox */
+}
+
 /* Navigation Styles
 --------------------------------------------------------------- */
 .navbar, .navbar-inverse, .navbar-fixed-top, .navbar-inner {
@@ -159,6 +166,20 @@ ul.bColors li span {
 	text-align: center;
 	font-size: 15px;
 }
+
+li.edName {
+	width: 230px;
+	color: #000;
+	font-weight: bold;
+	text-align: left !important;
+}
+@media (max-width: 979px) {
+	li.edName {
+		clear: both;
+		float: none !important;
+		display: block;
+	}
+}
 /* -----logo colors---- */
 li.black {color: #000;}
 li.black span {background: #000;}
@@ -228,6 +249,24 @@ ul.webColors3 li.green span {background: #d8e2c9;}
 
 .botSpace {
 	margin-bottom: 100px;	
+}
+
+/* Imagery Styles
+--------------------------------------------------------------- */
+.imgEx {
+	margin-top: 30px;
+	position: relative;	
+	text-align: center;
+}
+imgEx img {
+	max-width: 100%;
+	margin: 0 auto;	
+}
+@media (max-width: 767px) {
+	.imgEx {
+		padding-top: 30px;
+		border-top: 1px solid #ddd;
+	}	
 }
 
 
