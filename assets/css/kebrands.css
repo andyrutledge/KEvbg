@@ -233,10 +233,12 @@ ul.webColors3 li.green span {background: #d8e2c9;}
 /* -----Hunting Lottery colors---- */
 li.hlorange {color: #d74615;}
 li.hlorange span {background: #d74615;}
-li.hlgreen {color: #90b57e;}
-li.hlgreen span {background: #90b57e;}
 li.hlbrown {color: #2e1a0d;}
 li.hlbrown span {background: #2e1a0d;}
+li.hlgreen {color: #90b57e;}
+li.hlgreen span {background: #90b57e;}
+li.hlLtGreen {color: #999;}
+li.hlLtGreen span {color: #eff4ec; background: #eff4ec;}
 
 /* -----I Lost My Card colors---- */
 li.ilmcBlue {color: #75ccda;}
