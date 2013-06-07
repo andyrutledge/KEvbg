@@ -3,6 +3,22 @@ Kalkomey, Inc. Branding Guidelines
 Andy Rutledge, April - May, 2013
 */
 
+a:link, a:visited {
+	color: #ef5300;
+	border-bottom: 1px dotted #999;
+}
+a:hover {
+	color: #000;
+	text-decoration: underline;
+	border: none;	
+}
+.navbar a:link, .navbar a:visited {
+	border: none;	
+}
+.navbar a:hover {
+	text-decoration: none;	
+}
+
 p, li, dd {
 	color: #555;
 	line-height: 1.4em;
@@ -258,6 +274,9 @@ li.hscBlack span {background: #1d1d1e;}
 li.hscGray {color: #999;}
 li.hscGray span {background: #f1f1f2;}
 li.hscGray span {color: #f1f1f2;}
+li.hscTan {color: #999;}
+li.hscTan span {background: #f4ece0;}
+li.hscTan span {color: #f4ece0;}
 
 /* ------------------------------------------------------------- */
 
