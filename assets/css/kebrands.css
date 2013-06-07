@@ -250,6 +250,15 @@ li.ilmcDkBlue span {background: #4e8f9b;}
 li.ilmcLtBlue {color: #999;}
 li.ilmcLtBlue span {color: #eaf7f9; background: #eaf7f9;}
 
+/* -----Handgun Safety Course colors---- */
+li.hscYellow {color: #fca600;}
+li.hscYellow span {background: #fca600;}
+li.hscBlack {color: #1d1d1e;}
+li.hscBlack span {background: #1d1d1e;}
+li.hscGray {color: #999;}
+li.hscGray span {background: #f1f1f2;}
+li.hscGray span {color: #f1f1f2;}
+
 /* ------------------------------------------------------------- */
 
 .bGraphic {
